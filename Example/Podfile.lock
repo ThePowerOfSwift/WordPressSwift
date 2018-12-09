@@ -1,12 +1,16 @@
 PODS:
-  - WordPressSwift (0.2.0)
+  - WordPressSwift (0.3.0)
 
 DEPENDENCIES:
   - WordPressSwift
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - WordPressSwift
+
 SPEC CHECKSUMS:
-  WordPressSwift: d34c377523b754da6b650bd34966ae8eefbed651
+  WordPressSwift: a9e01f31038b26839014096512f2f6f0b23a4ea9
 
 PODFILE CHECKSUM: d1df4cc52a9d8bce39546afd8b939164f6a5779e
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3
