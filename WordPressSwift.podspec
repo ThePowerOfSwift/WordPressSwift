@@ -15,7 +15,7 @@ s.source           = { :git => 'https://github.com/Rubenfer/WordPressSwift.git',
 s.social_media_url = 'https://twitter.com/RubenApps'
 
 s.ios.deployment_target = '10.0'
-s.source_files = 'WordPressSwift/WordpressSwift.swift'
+s.source_files = 'WordPressSwift/WordpressSwift.swift','WordPressSwift/WPFeaturedImage.swift','WordPressSwift/WPCategory.swift','WordPressSwift/WPPost.swift'
   s.swift_version = '4.2'
 
 end
