@@ -13,19 +13,12 @@ class PostViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let wordpress = WordpressSwift()
-        
-        wordpress.getPosts(blogURL: "https://iosmac.es", page: 1, postPerPage: 4, categoryID: [0]) { (posts) in
-            
+                
+        WordpressSwift.getPosts(blogURL: "https://iosmac.es", page: 1, postPerPage: 4) { posts in
             for post in posts {
-                
                 print(post.title.text+"\n\n")
-                
             }
-            
         }
-        
         
     }
 

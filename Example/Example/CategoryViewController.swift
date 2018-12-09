@@ -13,17 +13,11 @@ class CategoryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let wordpress = WordpressSwift()
         
-        wordpress.getCategories(blogURL: "https://iosmac.es") { (categories) in
-            
+        WordpressSwift.getCategories(blogURL: "https://iosmac.es") { categories in
             for category in categories{
-                
                 print("The category called: \(category.name) with ID: \(category.id) contains \(category.count) posts\n\n")
-                
             }
-            
         }
         
     }
